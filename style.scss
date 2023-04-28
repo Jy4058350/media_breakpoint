@@ -1,0 +1,28 @@
+@use 'mq' as *;
+
+h1 {
+    color: red;
+    background-color: yellow;
+  
+    @include mq('small') {
+      color: blue;
+      background-color: green;
+    }
+    @include mq('medium') {
+      color: rgb(157, 206, 134);
+      background-color: rgb(180, 225, 180);
+    }
+    @include mq('large') {
+      color: rgb(223, 178, 94);
+      background-color: rgb(178, 151, 171);
+    }
+    @include mq('xlarge') {
+      color: rgb(241, 20, 79);
+      background-color: rgb(227, 193, 72);
+    }
+    @include mq('xxlarge') {
+      color: rgb(44, 142, 14);
+      background-color: rgb(121, 88, 125);
+    }
+  }
+  
