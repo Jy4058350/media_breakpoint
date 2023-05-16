@@ -70,6 +70,7 @@ header {
   display: flex;
   align-items: center;
   z-index: 1001;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
   & #search-bar {
     width: 100%;
@@ -86,5 +87,8 @@ header {
     font-size: 3rem;
     margin-left: 1.5rem;
 
+    &:hover {
+        color: $cOrange;
+    }
   }
 }

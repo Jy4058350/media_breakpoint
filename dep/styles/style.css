@@ -82,6 +82,8 @@ header {
   display: flex;
   align-items: center;
   z-index: 1001;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 .search-bar-container #search-bar {
   width: 100%;
@@ -96,4 +98,7 @@ header {
   cursor: pointer;
   font-size: 3rem;
   margin-left: 1.5rem;
+}
+.search-bar-container label:hover {
+  color: #ffa500;
 }/*# sourceMappingURL=style.css.map */
