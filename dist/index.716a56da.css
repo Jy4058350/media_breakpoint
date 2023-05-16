@@ -11,6 +11,22 @@
   transition: all .2s linear;
 }
 
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: orange;
+  border: .2rem solid orange;
+  margin-top: 1rem;
+  padding: .8rem 3rem;
+  font-size: 1.7rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: orange;
+  background-color: #ffa50033;
+}
+
 ::selection {
   color: #fff;
   background-color: orange;
@@ -104,6 +120,77 @@ header {
 
 .search-bar-container.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.login-form-container {
+  z-index: 10000;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000000b3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.login-form-container form {
+  width: 50rem;
+  background-color: #fff;
+  border-radius: .5rem;
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.login-form-container form h3 {
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+.login-form-container form .box {
+  width: 100%;
+  color: #333;
+  text-transform: none;
+  border: .1rem solid #0003;
+  margin: .6rem 0;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.login-form-container form .box:focus {
+  border-color: orange;
+}
+
+.login-form-container form #remember {
+  margin: 2rem 0;
+}
+
+.login-form-container form label {
+  font-size: 1.5rem;
+}
+
+.login-form-container form .btn {
+  width: 100%;
+  display: block;
+}
+
+.login-form-container form p {
+  color: #666;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+}
+
+.login-form-container form p a {
+  color: orange;
+}
+
+.login-form-container form p a:hover {
+  color: #333;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */
