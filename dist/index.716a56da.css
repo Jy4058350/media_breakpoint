@@ -131,7 +131,7 @@ header {
   align-items: center;
   display: flex;
   position: fixed;
-  top: 0;
+  top: -120%;
   left: 0;
 }
 
@@ -191,6 +191,15 @@ header {
 .login-form-container form p a:hover {
   color: #333;
   text-decoration: underline;
+}
+
+.login-form-container #form-close {
+  color: #fff;
+  cursor: pointer;
+  font-size: 5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */

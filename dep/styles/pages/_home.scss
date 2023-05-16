@@ -99,9 +99,9 @@ header {
 
 .login-form-container {
   position: fixed;
-  z-index: 10000;
-  top: 0;
+  top: -120%;
   left: 0;
+  z-index: 10000;
   min-height: 100vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -165,5 +165,14 @@ header {
         }
       }
     }
+  }
+
+  & #form-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: $cWhite;
+    cursor: pointer;
   }
 }
