@@ -189,4 +189,7 @@ header {
   font-size: 5rem;
   color: #fff;
   cursor: pointer;
+}
+.login-form-container.active {
+  top: 0;
 }/*# sourceMappingURL=style.css.map */

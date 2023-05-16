@@ -202,4 +202,8 @@ header {
   right: 2rem;
 }
 
+.login-form-container.active {
+  top: 0;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
