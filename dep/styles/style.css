@@ -241,6 +241,10 @@ header {
     margin: 1rem 0;
     background-color: #222;
   }
+  header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 @media (max-width: 450px) {
   html {

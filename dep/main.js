@@ -11,6 +11,11 @@ window.onscroll = () => {
     searchBar.classList.remove('active');
 };
 
+menu.addEventListener("click", () => {
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+});
+
 searchBtn.addEventListener("click", () => {
     searchBtn.classList.toggle('fa-times');
     searchBar.classList.toggle('active');

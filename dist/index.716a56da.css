@@ -257,6 +257,10 @@ header {
     padding: 1rem;
     display: block;
   }
+
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 @media (width <= 450px) {
