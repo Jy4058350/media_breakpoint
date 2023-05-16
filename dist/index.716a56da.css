@@ -57,4 +57,37 @@ header {
   color: orange;
 }
 
+.icons i {
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.icons i:hover {
+  color: orange;
+}
+
+.search-bar-container {
+  z-index: 1001;
+  background-color: #333;
+  border-top: .1rem solid #fff3;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.search-bar-container #search-bar {
+  width: 100%;
+  text-transform: none;
+  color: #333;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */

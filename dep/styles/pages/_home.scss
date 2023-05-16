@@ -28,23 +28,58 @@ header {
 }
 
 .logo {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color:$cWhite;
-    text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: $cWhite;
+  text-transform: uppercase;
 }
 
 .logo span {
-    color: $cOrange;
+  color: $cOrange;
 }
 
 .navbar a {
-    color: $cWhite;
-    font-size: 2rem;
-    margin: 0.8rem;
+  color: $cWhite;
+  font-size: 2rem;
+  margin: 0.8rem;
 
-    &:hover {
-        color: $cOrange;
-    }
+  &:hover {
+    color: $cOrange;
+  }
+}
+
+.icons i {
+  font-size: 2.5rem;
+  color: $cWhite;
+  cursor: pointer;
+  margin-top: 2rem;
+
+  &:hover {
+    color: $cOrange;
+  }
+}
+
+.search-bar-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 2rem;
+  background-color: $cGrey;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+
+  
+  & #search-bar {
+    width: 100%;
+    padding: 1rem;
+    text-transform: none;
+    color: $cGrey;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
 }
 
