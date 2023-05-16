@@ -13,3 +13,27 @@ html {
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $cGrey;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:$cWhite;
+    text-transform: uppercase;
+}
+
+header .logo span {
+    color: $cOrange;
+}

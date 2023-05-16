@@ -23,4 +23,28 @@ html {
   overflow: hidden;
 }
 
+header {
+  z-index: 1000;
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+header .logo span {
+  color: orange;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
