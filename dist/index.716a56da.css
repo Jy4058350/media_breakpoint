@@ -43,4 +43,8 @@ header .logo {
   font-weight: bolder;
 }
 
+header .logo span {
+  color: orange;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */

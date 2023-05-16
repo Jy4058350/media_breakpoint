@@ -46,4 +46,8 @@ header .logo {
   font-weight: bolder;
   color: #fff;
   text-transform: uppercase;
+}
+
+header .logo span {
+  color: #ffa500;
 }/*# sourceMappingURL=style.css.map */
