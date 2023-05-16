@@ -19,4 +19,11 @@
 ::selection {
   background-color: #ffa500;
   color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=style.css.map */

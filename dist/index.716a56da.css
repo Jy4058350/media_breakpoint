@@ -16,4 +16,11 @@
   background-color: orange;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
