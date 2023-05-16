@@ -36,14 +36,24 @@ header {
   right: 0;
 }
 
-header .logo {
+.logo {
   color: #fff;
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: bolder;
 }
 
-header .logo span {
+.logo span {
+  color: orange;
+}
+
+.navbar a {
+  color: #fff;
+  margin: .8rem;
+  font-size: 2rem;
+}
+
+.navbar a:hover {
   color: orange;
 }
 
