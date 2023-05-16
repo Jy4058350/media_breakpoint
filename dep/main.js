@@ -11,6 +11,7 @@ window.onscroll = () => {
     searchBar.classList.remove('active');
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
+    loginForm.classList.remove('active');
 };
 
 menu.addEventListener("click", () => {
