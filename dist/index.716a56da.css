@@ -102,4 +102,8 @@ header {
   color: orange;
 }
 
+.search-bar-container.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
