@@ -36,12 +36,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
   font-size: 62.5%;
-  overflow: hidden;
-}
-
-body {
-  height: 300rem;
-  overflow-y: scroll;
 }
 
 header {
@@ -270,6 +264,11 @@ header {
   html {
     font-size: 50%;
   }
+}
+
+body {
+  height: 400rem;
+  overflow-y: scroll;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */

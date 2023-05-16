@@ -38,14 +38,8 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
-}
-
-body {
-  overflow-y: scroll;
-  height: 300rem;
 }
 
 header {
@@ -253,4 +247,8 @@ header {
   html {
     font-size: 50%;
   }
+}
+body {
+  overflow-y: scroll;
+  height: 400rem;
 }/*# sourceMappingURL=style.css.map */
