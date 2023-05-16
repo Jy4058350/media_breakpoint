@@ -60,7 +60,7 @@ header {
 .icons i {
   color: #fff;
   cursor: pointer;
-  margin-top: 2rem;
+  margin-left: 2rem;
   font-size: 2.5rem;
 }
 
@@ -88,6 +88,13 @@ header {
   border-radius: .5rem;
   padding: 1rem;
   font-size: 1.7rem;
+}
+
+.search-bar-container label {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */

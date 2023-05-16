@@ -52,7 +52,7 @@ header {
   font-size: 2.5rem;
   color: $cWhite;
   cursor: pointer;
-  margin-top: 2rem;
+  margin-left: 2rem;
 
   &:hover {
     color: $cOrange;
@@ -71,15 +71,20 @@ header {
   align-items: center;
   z-index: 1001;
 
-  
   & #search-bar {
     width: 100%;
     padding: 1rem;
     text-transform: none;
     color: $cGrey;
     font-size: 1.7rem;
-    border-radius: .5rem;
-}
+    border-radius: 0.5rem;
+  }
 
-}
+  & label {
+    color: $cWhite;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
 
+  }
+}
