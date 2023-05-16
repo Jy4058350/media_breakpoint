@@ -2,4 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&family=Nunito:wght@200;300;400;600;700&display=swap");
 
+::selection {
+  background-color: $cOrange;
+  color: $cWhite;
+}
 
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
