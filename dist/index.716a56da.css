@@ -1,8 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&family=Nunito:wght@200;300;400;600;700&display=swap";
-:root {
-  --orange: orange;
-}
-
 * {
   box-sizing: border-box;
   text-transform: capitalize;
@@ -15,4 +11,4 @@
   transition: all .2s linear;
 }
 
-/*# sourceMappingURL=index.0ed24835.css.map */
+/*# sourceMappingURL=index.716a56da.css.map */
