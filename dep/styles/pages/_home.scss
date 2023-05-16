@@ -9,7 +9,7 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
+  // overflow: hidden;
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
@@ -210,28 +210,28 @@ header {
     #menu-bar {
       display: initial;
     }
-  }
 
-  header .navbar {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    background-color: $cGrey;
-    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
-    padding: 1.5rem 2rem;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    header .navbar {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      background-color: $cGrey;
+      border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+      padding: 1.5rem 2rem;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
-    & a {
-      display: block;
-      border-radius: 0.5rem;
-      padding: 1rem;
-      margin: 1rem 0;
-      background-color: $cDGray;
-    }
+      & a {
+        display: block;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 1rem 0;
+        background-color: $cDGray;
+      }
 
-    &.active {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      &.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
     }
   }
 }
@@ -241,3 +241,11 @@ header {
     font-size: 50%;
   }
 }
+
+body {
+  //スクロールバーを表示させる
+  overflow-y: scroll;
+  height: 400rem;
+}
+
+

@@ -38,7 +38,6 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
@@ -221,8 +220,6 @@ header {
   #menu-bar {
     display: initial;
   }
-}
-@media (max-width: 1200px) {
   header .navbar {
     position: absolute;
     top: 100%;
@@ -250,4 +247,8 @@ header {
   html {
     font-size: 50%;
   }
+}
+body {
+  overflow-y: scroll;
+  height: 400rem;
 }/*# sourceMappingURL=style.css.map */
