@@ -11,4 +11,9 @@
   transition: all .2s linear;
 }
 
+::selection {
+  color: #fff;
+  background-color: orange;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
