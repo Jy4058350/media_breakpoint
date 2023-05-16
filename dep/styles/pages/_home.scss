@@ -181,3 +181,12 @@ header {
   }
 }
 
+#menu-bar {
+    color: $cWhite;
+    border: .1rem solid $cWhite;
+    border-radius: .5rem;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}

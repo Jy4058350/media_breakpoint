@@ -192,4 +192,14 @@ header {
 }
 .login-form-container.active {
   top: 0;
+}
+
+#menu-bar {
+  color: #fff;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
