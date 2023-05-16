@@ -174,38 +174,16 @@ header {
     font-size: 5rem;
     color: $cWhite;
     cursor: pointer;
-    // display: block;
-    // z-index: 10001;
+
+    &::before {
+      content: "\f00d";
+    }
   }
-  
 
   &.active {
     top: 0;
   }
 }
-/* 以下のブロックを追加 */
-#form-close::before {
-    content: "\f00d"; /* FontAwesomeの×アイコンのコード */
-//     font-family: "Font Awesome 5 Free";
-    // font-weight: 900;
-  }
-  
-//   .fa, .fab, .fad, .fal, .far, .fas {
-//     -moz-osx-font-smoothing: grayscale;
-//     -webkit-font-smoothing: antialiased;
-//     display: inline-block;
-//     font-style: normal;
-//     font-variant: normal;
-//     text-rendering: auto;
-//     line-height: 1;
-//   }
-  
-  
-  
-  
-  
-  
-
 
 #menu-bar {
   color: $cWhite;
@@ -242,6 +220,7 @@ header {
     background-color: $cGrey;
     border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
     padding: 1.5rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
     & a {
       display: block;

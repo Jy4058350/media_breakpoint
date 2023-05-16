@@ -202,12 +202,12 @@ header {
   right: 3rem;
 }
 
-.login-form-container.active {
-  top: 0;
+.login-form-container #form-close:before {
+  content: "";
 }
 
-#form-close:before {
-  content: "";
+.login-form-container.active {
+  top: 0;
 }
 
 #menu-bar {
@@ -240,6 +240,7 @@ header {
 
 @media (width <= 1200px) {
   header .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     background-color: #333;
     border-top: .1rem solid #fff3;
     padding: 1.5rem 2rem;
