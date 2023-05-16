@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&family=Nunito:wght@200;300;400;600;700&display=swap");
 * {
   font-family: "Nunito", sans-serif;
@@ -185,13 +186,18 @@ header {
 .login-form-container #form-close {
   position: absolute;
   top: 2rem;
-  right: 2rem;
+  right: 3rem;
   font-size: 5rem;
   color: #fff;
   cursor: pointer;
 }
 .login-form-container.active {
   top: 0;
+}
+
+/* 以下のブロックを追加 */
+#form-close::before {
+  content: "\f00d"; /* FontAwesomeの×アイコンのコード */
 }
 
 #menu-bar {
@@ -202,4 +208,43 @@ header {
   padding: 0.5rem 1.2rem;
   cursor: pointer;
   display: none;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1200px) and (max-width: 991px) {
+  header {
+    padding: 2rem;
+  }
+}
+@media (max-width: 1200px) and (max-width: 768px) {
+  #menu-bar {
+    display: initial;
+  }
+}
+@media (max-width: 1200px) {
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: #333;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem 2rem;
+  }
+  header .navbar a {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #222;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
