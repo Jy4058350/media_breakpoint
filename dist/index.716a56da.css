@@ -106,4 +106,47 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+.login-form-container {
+  z-index: 10000;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000000b3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.login-form-container form {
+  width: 50rem;
+  background-color: #fff;
+  border-radius: .5rem;
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.login-form-container form h3 {
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+.login-form-container form .box {
+  width: 100%;
+  color: #333;
+  text-transform: none;
+  border: .1rem solid #0003;
+  margin: .6rem 0;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.login-form-container form .box:focus {
+  border-color: orange;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */

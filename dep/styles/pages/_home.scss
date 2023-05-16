@@ -96,3 +96,46 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
+
+.login-form-container {
+    position: fixed;
+    z-index: 10000;
+    top: 0; left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & form {
+        margin: 2rem;
+        padding:1.5rem 2rem;
+        border-radius: .5rem;
+        background-color: $cWhite;
+        width: 50rem;
+
+        & h3 {
+            font-size: 3rem;
+            color: $cGrey;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        & .box {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.7rem;
+            color: $cGrey;
+            margin: .6rem 0;
+            border: .1rem solid rgba(0,0,0,.2);
+            text-transform: none;
+
+            &:focus {
+                border-color: $cOrange;
+            }
+        }
+    }
+
+}
