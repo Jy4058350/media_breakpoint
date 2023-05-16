@@ -14,6 +14,13 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  //スクロールバーを表示させる
+  overflow-y: scroll;
+
+  height: 300rem;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -210,9 +217,9 @@ header {
     #menu-bar {
       display: initial;
     }
-  }
+  
 
-  header .navbar {
+   header .navbar {
     position: absolute;
     top: 100%;
     right: 0;
@@ -234,10 +241,12 @@ header {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
   }
-}
+}}
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
 }
+
+

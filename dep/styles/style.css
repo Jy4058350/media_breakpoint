@@ -43,6 +43,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-y: scroll;
+  height: 300rem;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -221,8 +226,6 @@ header {
   #menu-bar {
     display: initial;
   }
-}
-@media (max-width: 1200px) {
   header .navbar {
     position: absolute;
     top: 100%;
