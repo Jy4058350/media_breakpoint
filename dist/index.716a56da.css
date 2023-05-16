@@ -149,4 +149,12 @@ header {
   border-color: orange;
 }
 
+.login-form-container form #remember {
+  margin: 2rem 0;
+}
+
+.login-form-container form label {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
