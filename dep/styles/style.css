@@ -11,6 +11,21 @@
   transition: all 0.2s linear;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #ffa500;
+  color: #fff;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid #ffa500;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.btn:hover {
+  background-color: rgba(255, 165, 0, 0.2);
+  color: #ffa500;
+}
+
 ::-moz-selection {
   background-color: #ffa500;
   color: #fff;
@@ -150,4 +165,8 @@ header {
 }
 .login-form-container form label {
   font-size: 1.5rem;
+}
+.login-form-container form .btn {
+  display: block;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

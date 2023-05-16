@@ -11,6 +11,22 @@
   transition: all .2s linear;
 }
 
+.btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: orange;
+  border: .2rem solid orange;
+  margin-top: 1rem;
+  padding: .8rem 3rem;
+  font-size: 1.7rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: orange;
+  background-color: #ffa50033;
+}
+
 ::selection {
   color: #fff;
   background-color: orange;
@@ -155,6 +171,11 @@ header {
 
 .login-form-container form label {
   font-size: 1.5rem;
+}
+
+.login-form-container form .btn {
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */
