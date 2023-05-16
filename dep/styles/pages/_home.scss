@@ -14,8 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 header {
   position: fixed;
   top: 0;
@@ -145,12 +143,27 @@ header {
     }
 
     & label {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
 
     & .btn {
-        display: block;
-        width: 100%;
+      display: block;
+      width: 100%;
+    }
+
+    & p {
+      padding: 0.5rem 0;
+      font-size: 1.5rem;
+      color: $cSilver;
+
+      & a {
+        color: $cOrange;
+
+        &:hover {
+          color: $cGrey;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

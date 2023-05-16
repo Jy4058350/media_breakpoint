@@ -178,4 +178,19 @@ header {
   display: block;
 }
 
+.login-form-container form p {
+  color: #666;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+}
+
+.login-form-container form p a {
+  color: orange;
+}
+
+.login-form-container form p a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */

@@ -169,4 +169,16 @@ header {
 .login-form-container form .btn {
   display: block;
   width: 100%;
+}
+.login-form-container form p {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #666;
+}
+.login-form-container form p a {
+  color: #ffa500;
+}
+.login-form-container form p a:hover {
+  color: #333;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
