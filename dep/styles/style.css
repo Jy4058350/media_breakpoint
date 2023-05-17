@@ -276,6 +276,23 @@ header {
   text-transform: uppercase;
   padding: 0.5rem 0;
 }
+.home .controls {
+  padding: 1rems;
+  border-radius: 5rem;
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 10rem;
+}
+.home .vid-btn {
+  height: 2rem;
+  width: 2rem;
+  display: inline-block;
+  border: 0.2rem solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointers;
+  margin: 0.5rem;
+}
 
 .video-container video {
   position: absolute;
