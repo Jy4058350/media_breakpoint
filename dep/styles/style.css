@@ -270,6 +270,9 @@ header {
   html {
     font-size: 50%;
   }
+  .heading span {
+    font-size: 2.5rem;
+  }
 }
 .home {
   min-height: 100vh;
