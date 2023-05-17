@@ -42,6 +42,24 @@ section {
   padding: 1.5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.heading span {
+  color: orange;
+  background: #ffa50033;
+  border-radius: .5rem;
+  padding: 2rem 1rem;
+  font-size: 3.5rem;
+  display: inline-block;
+}
+
+.heading span.space {
+  background: none;
+}
+
 header {
   z-index: 1000;
   background-color: #333;

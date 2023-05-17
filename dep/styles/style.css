@@ -46,6 +46,22 @@ section {
   padding: 1.5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.heading span {
+  font-size: 3.5rem;
+  background: rgba(255, 165, 0, 0.2);
+  color: #ffa500;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  display: inline-block;
+}
+.heading span.space {
+  background: none;
+}
+
 header {
   position: fixed;
   top: 0;
