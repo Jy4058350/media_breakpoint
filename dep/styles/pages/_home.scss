@@ -24,9 +24,9 @@ section {
 
   & span {
     font-size: 3.5rem;
-    background: rgba(255,165,0,0.2);
+    background: rgba(255, 165, 0, 0.2);
     color: $cOrange;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 2rem 1rem;
     display: inline-block;
 
@@ -334,10 +334,28 @@ header {
   }
 }
 
+.book {
+  & .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 
+    & .image {
+    flex:1 1 30rem;
 
+    & img {
+      width: 100%;
+    }
+    }
 
-
+    & form {
+      flex: 1 1 30rem;
+      padding: 2rem;
+      box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+    }
+  }
+}
 
 // body {
 //   //スクロールバーを表示させる

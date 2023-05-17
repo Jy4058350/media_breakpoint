@@ -353,4 +353,25 @@ header {
   left: 0;
 }
 
+.book .row {
+  flex-wrap: wrap;
+  gap: 2rem;
+  display: flex;
+}
+
+.book .row .image {
+  flex: 30rem;
+}
+
+.book .row .image img {
+  width: 100%;
+}
+
+.book .row form {
+  border-radius: .5rem;
+  flex: 30rem;
+  padding: 2rem;
+  box-shadow: 0 0 2rem #0003;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
