@@ -394,4 +394,60 @@ header {
   font-size: 2rem;
 }
 
+.packages .box-container {
+  flex-wrap: wrap;
+  gap: 2rem;
+  display: flex;
+}
+
+.packages .box-container .box {
+  border-radius: .5rem;
+  flex: 30rem;
+  overflow: hidden;
+  box-shadow: 0 0 2rem #0003;
+}
+
+.packages .box-container .box img {
+  height: 25rem;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.packages .box-container .box .content {
+  padding: 2rem;
+}
+
+.packages .box-container .box .content h3 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.packages .box-container .box .content h3 i {
+  color: orange;
+}
+
+.packages .box-container .box .content p {
+  color: #666;
+  padding: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.packages .box-container .box .content .stars {
+  color: orange;
+  font-size: 1.7rem;
+}
+
+.packages .box-container .box .content .price {
+  color: #333;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.packages .box-container .box .content .price span {
+  color: #666;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
