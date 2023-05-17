@@ -42,6 +42,24 @@ section {
   padding: 1.5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.heading span {
+  color: orange;
+  background: #ffa50033;
+  border-radius: .5rem;
+  padding: 2rem 1rem;
+  font-size: 3.5rem;
+  display: inline-block;
+}
+
+.heading span.space {
+  background: none;
+}
+
 header {
   z-index: 1000;
   background-color: #333;
@@ -230,7 +248,7 @@ header {
 }
 
 @media (width <= 1200px) and (width <= 991px) {
-  header {
+  header, section {
     padding: 2rem;
   }
 }
@@ -267,6 +285,10 @@ header {
 @media (width <= 450px) {
   html {
     font-size: 50%;
+  }
+
+  .heading span {
+    font-size: 2.5rem;
   }
 }
 
@@ -329,6 +351,47 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.book .row {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.book .row .image {
+  flex: 30rem;
+}
+
+.book .row .image img {
+  width: 100%;
+}
+
+.book .row form {
+  border-radius: .5rem;
+  flex: 50rem;
+  padding: 2rem;
+  box-shadow: 0 0 2rem #0003;
+}
+
+.book .row .inputBox {
+  padding: .5rem 0;
+}
+
+.book .row .inputBox input {
+  width: 100%;
+  color: #333;
+  text-transform: none;
+  border: .1rem solid #0000001a;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.book .row .inputBox h3 {
+  color: #222;
+  padding: 1rem 0;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */
