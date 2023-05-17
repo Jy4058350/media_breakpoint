@@ -341,8 +341,11 @@ header {
   width: 100%;
 }
 .book .row form {
-  flex: 1 1 30rem;
+  flex: 1 1 50rem;
   padding: 2rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
+}
+.book .row .inputBox {
+  padding: 5rem 0;
 }/*# sourceMappingURL=style.css.map */
