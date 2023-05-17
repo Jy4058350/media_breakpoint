@@ -355,6 +355,7 @@ header {
 
 .book .row {
   flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
   display: flex;
 }
@@ -375,7 +376,22 @@ header {
 }
 
 .book .row .inputBox {
-  padding: 5rem 0;
+  padding: .5rem 0;
+}
+
+.book .row .inputBox input {
+  width: 100%;
+  color: #333;
+  text-transform: none;
+  border: .1rem solid #0000001a;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.book .row .inputBox h3 {
+  color: #222;
+  padding: 1rem 0;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */
