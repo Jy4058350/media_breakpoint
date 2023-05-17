@@ -219,6 +219,9 @@ header {
   header {
     padding: 2rem;
   }
+  section {
+    padding: 2rem;
+  }
 }
 @media (max-width: 1200px) and (max-width: 768px) {
   #menu-bar {

@@ -230,7 +230,7 @@ header {
 }
 
 @media (width <= 1200px) and (width <= 991px) {
-  header {
+  header, section {
     padding: 2rem;
   }
 }
