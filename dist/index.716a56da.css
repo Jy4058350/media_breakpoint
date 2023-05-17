@@ -38,6 +38,10 @@ html {
   font-size: 62.5%;
 }
 
+section {
+  padding: 1.5rem 9%;
+}
+
 header {
   z-index: 1000;
   background-color: #333;
@@ -264,6 +268,16 @@ header {
   html {
     font-size: 50%;
   }
+}
+
+.home {
+  min-height: 100vh;
+  z-index: 0;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
 }
 
 /*# sourceMappingURL=index.716a56da.css.map */
