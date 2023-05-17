@@ -5,6 +5,7 @@ let loginForm = document.querySelector(".login-form-container");
 let formClose = document.querySelector("#form-close");
 let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
+let videoBtn = document.querySelectorAll(".vid-btn");
 window.onscroll = ()=>{
     searchBtn.classList.remove("fa-times");
     searchBar.classList.remove("active");
@@ -25,6 +26,13 @@ formBtn.addEventListener("click", ()=>{
 });
 formClose.addEventListener("click", ()=>{
     loginForm.classList.remove("active");
+});
+videoBtn.forEach((btn)=>{
+    btn.addEventListener("click", ()=>{
+        const active = document.querySelector(".controls .active");
+        active.classList.remove("active");
+        btn.classList.add("active");
+    });
 });
 
 //# sourceMappingURL=index.d5291ba3.js.map

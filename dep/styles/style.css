@@ -287,11 +287,13 @@ header {
   height: 2rem;
   width: 2rem;
   display: inline-block;
-  border: 0.2rem solid #fff;
   border-radius: 50%;
   background: #fff;
   cursor: pointers;
   margin: 0.5rem;
+}
+.home .active {
+  background-color: #ffa500;
 }
 
 .video-container video {

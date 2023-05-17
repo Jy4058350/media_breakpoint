@@ -285,11 +285,14 @@ header {
     height: 2rem;
     width: 2rem;
     display: inline-block;
-    border: 0.2rem solid $cWhite;
     border-radius: 50%;
     background: $cWhite;
     cursor: pointers;
     margin: 0.5rem;
+  }
+
+  & .active {
+    background-color: $cOrange;
   }
 }
 
