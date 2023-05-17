@@ -298,4 +298,15 @@ header {
   font-size: 1.5rem;
 }
 
+.video-container video {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
