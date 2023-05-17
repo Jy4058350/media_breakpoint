@@ -260,4 +260,19 @@ header {
   flex-flow: column;
   position: relative;
   z-index: 0;
+}
+.home .content {
+  text-align: center;
+}
+.home h3 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0.3rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.home p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
 }/*# sourceMappingURL=style.css.map */

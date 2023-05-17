@@ -280,4 +280,22 @@ header {
   position: relative;
 }
 
+.home .content {
+  text-align: center;
+}
+
+.home h3 {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: .3rem .5rem .5rem #0003;
+  font-size: 3rem;
+}
+
+.home p {
+  color: #fff;
+  text-transform: uppercase;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
