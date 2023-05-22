@@ -450,4 +450,38 @@ header {
   text-decoration: line-through;
 }
 
+.service .box-container {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.service .box-container .box {
+  text-align: center;
+  border-radius: .5rem;
+  flex: 30rem;
+  padding: 1rem;
+}
+
+.service .box-container .box:hover {
+  box-shadow: 0 1rem 2rem #0003;
+}
+
+.service .box-container .box i {
+  color: orange;
+  padding: 1rem;
+  font-size: 5rem;
+}
+
+.service .box-container .box h3 {
+  color: #222;
+  font-size: 2.5rem;
+}
+
+.service .box-container .box p {
+  color: #333;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=index.716a56da.css.map */
