@@ -453,4 +453,33 @@ header {
   flex: 1 1 30rem;
   height: 25rem;
   position: relative;
+}
+.gallery .box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery .box-container .box .content {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  padding-top: 5rem;
+}
+.gallery .box-container .box h3 {
+  font-size: 2.5rem;
+  color: #ffa500;
+}
+.gallery .box-container .box p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+.gallery .box-container .box:hover .content {
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
