@@ -433,14 +433,10 @@ header {
 }
 
 .service {
-
-  
   & .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-
-    
 
     & .box {
       flex: 1 1 30rem;
@@ -460,19 +456,35 @@ header {
 
       & h3 {
         font-size: 2.5rem;
-        color:$cDGray
+        color: $cDGray;
       }
 
       & p {
         font-size: 1.5rem;
-        color:$cGrey;
+        color: $cGrey;
         padding: 1.5rem;
-        
       }
-
-      
     }
   }
+}
+
+.gallery {
+
+& .box-container {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 1.5rem;
+
+  & .box {
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    border: 1rem solid $cWhite;
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    height: 25rem;
+    position: relative;
+  }
+}  
 }
 
 // body {
